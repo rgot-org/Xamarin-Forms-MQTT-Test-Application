@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMQTT.MainPage">
+
+    <StackLayout VerticalOptions="FillAndExpand" Orientation="Vertical">
+        <StackLayout Orientation="Vertical" VerticalOptions="Start">
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Test MQTT" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <Entry Placeholder="Saisir le message"  x:Name="Entry_MessageToSend"/>
+            <Button Text="Publier" x:Name="btn_Publier" Clicked="btn_Publier_Clicked" HorizontalOptions="Center"   />
+            <Label Text="" x:Name="Label_MessageRecu"/>
+        </StackLayout>
+        <StackLayout>
+            <Frame  Margin="5" Padding="5" CornerRadius="5" BackgroundColor="#2196F3">
+                <Label x:Name="status" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+            </Frame>
+
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

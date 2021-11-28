@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMQTT.Android", "AppMQTT\AppMQTT.Android\AppMQTT.Android.csproj", "{0D28F2D5-34B7-4AF0-A303-A867B2A14654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMQTT", "AppMQTT\AppMQTT\AppMQTT.csproj", "{D12E38DA-2810-406C-A16E-4569D805275D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D28F2D5-34B7-4AF0-A303-A867B2A14654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D28F2D5-34B7-4AF0-A303-A867B2A14654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D28F2D5-34B7-4AF0-A303-A867B2A14654}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D28F2D5-34B7-4AF0-A303-A867B2A14654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D28F2D5-34B7-4AF0-A303-A867B2A14654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D28F2D5-34B7-4AF0-A303-A867B2A14654}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D12E38DA-2810-406C-A16E-4569D805275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12E38DA-2810-406C-A16E-4569D805275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12E38DA-2810-406C-A16E-4569D805275D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D12E38DA-2810-406C-A16E-4569D805275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12E38DA-2810-406C-A16E-4569D805275D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12E38DA-2810-406C-A16E-4569D805275D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0D433E9-C2CB-44B4-AA45-3269B32298B1}
+	EndGlobalSection
+EndGlobal
