@@ -8,5 +8,3 @@ publiant sur **test/xamarin/abonne** et abonné à **test/xamarin/publish***
  
 Le bandeau bleu en bas de l'application indique que l'application est connecté au broker (broker.hivemq.com pour l'exemple)
 
-j'ajoute une modification
-
